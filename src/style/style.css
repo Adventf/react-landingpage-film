@@ -1,0 +1,44 @@
+.background-satu {
+  background-color: black;
+}
+.beranda {
+  margin: 0 140px;
+}
+.d-block {
+  height: 65vh;
+}
+.groupMovies {
+  margin: 5px;
+}
+.cardMovies {
+  padding: 20px;
+  margin: 15px;
+  background-color: rgb(255, 226, 199) !important;
+}
+.imgBeranda {
+  padding: 85px 70px;
+}
+.imgMovies {
+  height: 360px;
+}
+.buttonCard {
+  width: 100%;
+}
+
+.title {
+  color: rgb(255, 226, 199);
+  padding-top: 53px;
+}
+
+@media only screen and (max-width: 576px) {
+  .d-block {
+    height: 30vh;
+    box-shadow: none;
+  }
+  .beranda {
+    margin: 50px 0;
+  }
+  .imgBeranda {
+    padding: 5px;
+  }
+}
